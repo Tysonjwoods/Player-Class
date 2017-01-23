@@ -1,0 +1,21 @@
+public class Players {
+    private int rank;
+    private String firstName;
+    private String lastName;
+    private char position;
+    private String college;
+    private char gradeClass;
+    private double height;
+    private double weight;
+    public Players(int rank, String fName, String lName, char pos, 
+            String coll, char gradeCl, double hei, double lbs)
+    {
+this.rank = rank;
+firstName = fName;
+lastName = lName;
+position = pos;
+college = coll;
+gradeClass = gradeCl;
+height = hei;
+weight = lbs;
+}
